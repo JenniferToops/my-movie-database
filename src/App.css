@@ -23,45 +23,8 @@ small {
   padding: 40;
 }
 
-.title {
-  font-size: 4.4rem;
-  font-weight: 600;
-  text-align: center;
-}
-
-.input {
-  font-size: 1.6rem;
-  padding: 0.5rem 2rem;
-  line-height: 2.8rem;
-  border-radius: 20px;
-  border: 1px solid #ddd;
-  margin-bottom: 1rem;
-}
-
 .button {
-  background-color: rgba(0, 0, 0, 0.75);
-  color: white;
-  padding: 1rem 2rem;
-  border: 1px solid rgba(0, 0, 0, 0.75);
   border-radius: 20px;
-  font-size: 1.4rem;
-  cursor: pointer;
-  transition: background-color 250ms;
-}
-
-.form {
-  display: grid;
-}
-
-.label {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: .2rem;
-  text-transform: uppercase;
-}
-
-.button:hover {
-  background-color: rgba(0, 0, 0, 0.85);
 }
 
 @media (min-width: 786px) {
@@ -73,6 +36,6 @@ small {
   .input {
     margin-bottom: 0;
   }
-
 }
+
 
