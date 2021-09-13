@@ -29,7 +29,7 @@ const searchMovies = async (e) => {
         <>
             <form className="form" onSubmit={searchMovies}>
                 <label className="label" htmlFor="query" >Movie Name</label>
-                <input className="input" type="text" name="query" placeholder="enter a movie" value={query} onChange={(e) => setQuery(e.target.value)} />
+                <input id="input" type="text" name="query" placeholder="enter a movie" value={query} onChange={(e) => setQuery(e.target.value)} />
                 <button className="button" type="submit">Submit</button>
                 
             </form>
